@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background: #FBF7EE;
+}
+
+.gradient {
+    height: 260px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    padding: 53px 0;
+    box-sizing: border-box;
+}
+
+.gradient h1 {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    margin-bottom: 65px;
+}
+
+.gradient span {
+    font-weight: 800;
+    font-size: 98px;
+    line-height: 24px;
+}
+
+.converter-container {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1A1921;
+    margin-bottom: 5px;
+}
+
+.box p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+}
