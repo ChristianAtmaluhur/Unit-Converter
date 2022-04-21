@@ -11,7 +11,7 @@ section {
 }
 
 .gradient {
-    height: 260px;
+    height: 390px;
     background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
     display: flex;
     align-items: center;
@@ -33,6 +33,40 @@ section {
     font-size: 98px;
     line-height: 24px;
 }
+
+.gradient form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.gradient form input {
+    width: 250px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+}
+
+.gradient form button {
+	background: linear-gradient(246.26deg, #ED4683 0%, #F48E14 100%);
+	border-radius:10px;
+    border: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+}
+
 
 .converter-container {
     margin-top: 37px;
